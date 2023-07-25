@@ -12,7 +12,7 @@ function Quote() {
   }, []);
 
   return (
-    <div className="grid sm:grid-cols-2 md:grid-cols-3 w-screen bg-slate-300 gap-2 p-3  h-screen">
+    <div className="grid sm:grid-cols-2 lg:grid-cols-3 w-screen bg-slate-300 gap-2 p-3  h-screen">
       {quote.map((el) => (
         <Sentence props={el} key={el.id} />
       ))}

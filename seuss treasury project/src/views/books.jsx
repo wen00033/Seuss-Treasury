@@ -23,9 +23,9 @@ function Books() {
   }, []);
 
   return (
-    <div className="p-4 grid  sm:grid-cols-2 gap-3 bg-slate-300  w-screen">
-      <div className="container ">
-        <img className=" object-cover" src={detail.image} alt="image" />
+    <div className="p-4 grid  sm:grid-cols-2 gap-3 bg-slate-300  w-screen h-full ">
+      <div className="container h-full">
+        <img className=" aspect-auto " src={detail.image} alt="image" />
         <h1 className=" text-center text-lg my-2 py-3 font-black bg-red-500  text-white bg-gradient-to-tl">
           {detail.title}
         </h1>
